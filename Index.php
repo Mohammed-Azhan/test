@@ -1,6 +1,6 @@
-<?php
+<!-- <?php
 include '../components/navbar.php';
-?>
+?> -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,12 +14,14 @@ include '../components/navbar.php';
     <div style="display: flex;justify-content: center;align-items: center;width: 100%;padding: 5vw;">
         <div>
             <h3 style="font-size: 4vw;margin-right: .5rem; margin: 30px 0; line-height: 90px;">Effortless Logistics,
-                Exceptional Service Parcel-jet <?php 
-echo $_SESSION['test'];
+                Exceptional Service Parcel-jet
+                <!-- <?php
+                echo $_SESSION['test'];
 
-                 ?></h3>
+                ?> -->
+            </h3>
             <button class="main-txt-btn shipment_form" name="shipment_form">Start your first shipment</button>
-            <script>
+            <!-- <script>
                 shipment_form = document.querySelector('.shipment_form');
                 shipment_form.addEventListener("click", () => {
                     <?php
@@ -34,7 +36,7 @@ echo $_SESSION['test'];
                     }
                     ?>
                 })
-            </script>
+            </script> -->
 
         </div>
         <img style="width: 40vw;" src="../images/hero.svg" alt="">
